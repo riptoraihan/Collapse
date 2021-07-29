@@ -1,0 +1,860 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <title>BT5</title>
+  </head>
+  <body>
+
+
+
+        <!--HTML Character-->
+      <div class="container">
+        <p><strong>01-Some Useful HTML Character Entities;</strong></p>
+        <h1>use&lt;h1&gt; for heading text </h1>
+        <h1>cent text &cent;</h1>
+        <h1>pound text &pound;</h1>
+        <h1>yen text &yen;</h1>
+        <h1>euro text &euro;</h1>
+        <h1>copyright &copy;</h1>
+        <h1>registered trademark &reg;</h1>
+
+      </div>
+
+        <!--Emoji-->
+
+      <div class="container">
+        
+        <p><strong>02-Some Emoji Symbols in UTF-8;</strong></p>
+        <h1>emoji 1 (&#128507;)</h1>
+        <h1>emoji 2 (&#128508;)</h1>
+        <h1>emoji 3 (&#128509;)</h1>
+        <h1>emoji 4 (&#128510;)</h1>
+        <h1>emoji 5 (&#128511;)</h1>
+        <h1>emoji 6 (&#128512;)</h1>
+        <h1>emoji 7 (&#128513;)</h1>
+        <h1>emoji 8 (&#128514;)</h1>
+        <h1>emoji 9 (&#128515;)</h1>
+        <h1>emoji 10 (&#128516;)</h1>
+        <h1>emoji 11 (&#128517;)</h1>
+        <h1>emoji 12 (&#128518;)</h1>
+
+
+      </div>
+
+      <div class="container">
+        
+        <h1></h1>
+
+      </div>
+
+      <!--from-->
+
+      <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="foe_from">
+                  <p><strong> 03-from text useing;</Strong></p>
+                  <h1>Enter your data</h1>
+ 
+             <form class="needs-validation" novalidate>
+                         <!--Full name--> 
+                        <div class="mb-3">
+                          <label for="u_name" class="form-label">Full Name</label>
+                          <input type="email" class="form-control u_name" id="u_name" name="u_name" aria-describedby="emailHelp" placeholder="Enter Your Full Name" required>
+                          <div class="valid-feedback">
+                            Looks good!
+                          </div>
+                          <div class="invalid-feedback"></div>
+                            Please Enter your full name.                         
+                          </div>
+                          
+                          <!--Email-->
+                           <div class="mb-3">
+                          <label for="u_email" class="form-label">Email address</label>
+                          <input type="email" class="form-control u_email"  id="u_email" name="u_email" aria-describedby="emailHelp" placeholder="Enter Your Email Address" required>
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                           </div>
+
+                          <!--password-->
+                           <div class="mb-3">
+                          <label for="u_pass" class="form-label">Password</label>
+                          <input type="password" class="form-control u_pass" id="u_pass" name="u_pass" placeholder="Enter Your Password" required>
+                          <div class="form-text"> Strong password must</div>
+                        </div> 
+
+                        <!--disabled input-->
+                        <input class="form-control" type="text" placeholder="Please Next time try_can't run it (disabled from)" aria-label="Disabled input example" disabled>
+                        <div class="form-text">Comeing soon</div>
+
+                        <!--message-->
+                        <div class="mb-3">
+                          <label for="u_message" class="form-label"> Your Textline</label>
+                          <textarea class="form-control u_message" id="u_message" rows="3" name="u_message"></textarea>
+                        </div>
+                        <!--file upload-->
+                        <div class="mb-3">
+                          <label for="u_from" class="form-label"> Upload File or video fotej</label>
+                          <input class="form-control form-control-sm" id="u_from" name="u_from" type="file">
+                        </div>
+
+                        <!--chakebox--> 
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <!--color picker-->
+
+                          <label for="exampleColorInput" class="form-label">Choose your colo for html</label>
+                          <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
+                        <!--submit--> 
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+              </form>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <!--badge-->
+
+      <section>
+
+        <div class="container">
+          <strong>04-badge</strong>
+
+       <h1>1st Heading button added <span class="badge bg-secondary">Ripto</span></h1>
+       <h2>2nd Heading button added<span class="badge bg-secondary">Ripto</span></h2>
+       <h3>3rd Heading button added<span class="badge bg-secondary">Ripto</span></h3>
+       <h4>4th Heading button added<span class="badge bg-secondary">Ripto</span></h4>
+       <h5>5m Heading button added<span class="badge bg-secondary">Ripto</span></h5>
+       <h6>6th Heading button added<span class="badge bg-secondary">Ripto</span></h6>
+        
+        <h3> Notifications</h3>
+
+          <button type="button" class="btn btn-info">
+          Notifications <span class="badge bg-primary">5k</span>
+        </button><br>
+
+        <h3>inbox icon add</h3>
+            <button type="button" class="btn btn-primary position-relative">
+              Inbox
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                999+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+
+            <h3>profile icon add</h3>
+                <button type="button" class="btn btn-primary position-relative">
+                Profile
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+                </span>
+                </button>
+
+        </section>
+
+                    <!--Mixins utilities-->
+                      <section>
+
+                        <div class="container">
+                                <h3>05-card</h3>
+                                <p>Mixins utilities</p>
+                                <div class="card border-success mb-3" style="max-width: 18rem;">
+                          <div class="card-header bg-transparent border-success">start point, Header</div>
+                          <div class="card-body text-success">
+                            <h5 class="card-title">the head taitle</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                          <div class="card-footer bg-transparent border-success">end poin, Footer</div>
+                        </div>
+
+                        <p>Card groups</p>
+
+                            <div class="card-group">
+                            <div class="card">
+                              <img src="images/01.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">This is supper car in the world,</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="images/02.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">My Frist dextop desk</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="images/03.jpg" class="card-img-top" alt="yuor photos">
+                              <div class="card-body">
+                                <h5 class="card-title">My Professioal Workplace</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <h3>Horizontal</h3>
+                            <div class="card mb-3" style="max-width: 540px;">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="images/profile.jpg" class="img-fluid rounded-start" alt="My profile size picture">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title">My new Photos</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                              <h3>Image caps</h3>
+                              <div class="card mb-3">
+                              <img src="images/01.jpg" class="card-img-top" alt="car">
+                              <div class="card-body">
+                                <h5 class="card-title">This is supper car in the world</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">My Frist dextop desk</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                              <img src="images/02.jpg" class="card-img-bottom" alt="dext">
+                            </div>
+
+                              </div>
+                          </section>
+
+
+                      <!--nav and taps-->
+
+                      <section class="mt-5">
+                        <div class="container">
+                          <h3>06-nav and taps</h3>
+                          <p>Base nav</p>
+                             <ul class="nav">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">facebook</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Instagram</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                    </li>
+                             </ul>
+                               <!--justify-content-center-->
+                             <p>Centered with .justify-content-center</p>
+
+
+                                  <ul class="nav justify-content-center">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                   </ul>
+
+                                      <!--justify-content-->
+
+                                  <p>Right-aligned with .justify-content-end</p>
+
+                                     <ul class="nav justify-content-end">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                    </ul>
+
+                                        <!--justify-->
+                                      <p>Fill and justify</p>
+
+                                      <ul class="nav nav-pills nav-fill">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">Photographay</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">facebook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Instagram</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Not work</a>
+                                        </li>
+                                     </ul>
+                      </section>
+
+
+    <!-- collaps start -->
+
+    <!--Multiple targets-->
+    <section class="mt-5">
+        <div class="container">
+          <h3>07-collaps</h3>
+            <div class="row">
+                <div class="col-md-12">
+                      <div class="all-col-btn">
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">Toggle first element</a>
+
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1 multiCollapse2">Toggle both elements</button>
+                      </div>
+
+                      <div class="row">
+                          <div class="col">
+                              <div class="collapse multi-collapse" id="multiCollapse1">
+                                  <div class="card card-body">
+                                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="collapse multi-collapse" id="multiCollapse2">
+                                  <div class="card card-body">
+                                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+   <!--Example-->
+   <section class="mt-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <div class="all-col-btn">
+             <div>
+                      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="        button" aria-expanded="false" aria-controls="collapseExample">
+                          Link with href
+                      </a>
+
+                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Button with data-bs-target
+                   </button>
+
+             </div>
+
+              <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+              </div>
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+
+
+   <!-- collaps end --> 
+
+   <!--Accordion start-->
+   <!--Flush-->
+    <section>
+    <div class="container">
+              <h3>08-Accordion</h3>
+
+              <p>Flush</p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+          <!--accordion-item-->
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+
+         <!--accordion-item-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+
+          <!--accordion-item-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+        </div>
+     </div>
+   </div>
+    </section>
+
+    <!--Always open-->
+
+
+    <section>
+      <div class="container">
+        <p>Always open</p>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+   <!--Accordion end-->
+      <!--Alerts start-->
+      <!--Examples-->
+      <section>
+        <div class="container">
+          <h3>09-Accordion</h3>
+          <p>Examples</p>
+             <div class="alert alert-primary" role="alert">
+                Ripto Raihan / This is the first item's accordion body.
+             </div>
+             <div class="alert alert-secondary" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+             </div>
+              <div class="alert alert-success" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+              </div>
+              <div class="alert alert-danger" role="alert">
+                  Ripto Raihan/ This is the first item's accordion body.
+              </div>
+              <div class="alert alert-warning" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+              </div>
+              <div class="alert alert-info" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+              </div>
+              <div class="alert alert-light" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+                  </div>
+              <div class="alert alert-dark" role="alert">
+                 Ripto Raihan/ This is the first item's accordion body.
+              </div>
+        </div>
+      </section>
+
+    <!--Link color-->
+        <section>
+          <div class="container">
+        <p> Link color</p>
+
+         <div class="alert alert-primary" role="alert">
+             A simple primary alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-secondary" role="alert">
+             A simple secondary alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-success" role="alert">
+             A simple success alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-danger" role="alert">
+             A simple danger alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-warning" role="alert">
+             A simple warning alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-info" role="alert">
+             A simple info alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+       </div>
+        <div class="alert alert-light" role="alert">
+             A simple light alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+        </div>
+         <div class="alert alert-dark" role="alert">
+             A simple dark alert with <a href="https://www.facebook.com/profile.php?id=100008817366688" class="alert-link">Facebook</a>. Give it a click if you like.
+       </div>
+
+        </div>
+        </section>
+
+        <!--Additional content-->
+        <section>
+          <div class="container">
+            <p>Additional content</p>
+
+                  <div class="alert alert-success" role="alert">
+                     <h4 class="alert-heading">Well done!</h4>
+                      <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                      <hr>
+                     <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                 </div>
+
+          </div>
+        </section>
+
+        <!--Icons-->
+        <section>
+          <div class="container">
+            <p>Icons</p>
+
+            <div class="alert alert-primary d-flex align-items-center" role="alert">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                <div>
+                  An example alert with an icon
+                </div>
+           </div>
+           <p>Other icon</p>
+
+                           <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                  <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                  </symbol>
+                  <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                  </symbol>
+                  <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </symbol>
+                </svg>
+
+                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+                  <div>
+                    An example alert with an icon
+                  </div>
+                </div>
+                <div class="alert alert-success d-flex align-items-center" role="alert">
+                  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                  <div>
+                    An example success alert with an icon
+                  </div>
+                </div>
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                  <div>
+                    An example warning alert with an icon
+                  </div>
+                </div>
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                  <div>
+                    An example danger alert with an icon
+                  </div>
+                </div>
+
+          </div>
+        </section>
+
+  <!--Alerts end-->
+
+
+  <!--Offcanvas start-->
+
+       <!--Backdrop-->
+
+       <section>
+         <div class="container">
+          <h1>10-Offcanvas</h1>
+           <p>Backdrop</p>
+
+                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
+                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
+                  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p>Try scrolling the rest of the page to see this option in action.</p>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                    <div class="offcanvas-header">
+                       <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                     <p>Ripto Raihan</p>
+                    </div>
+                </div>
+
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                         <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                    <div class="offcanvas-body">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                    </div>
+               </div>
+
+         </div>
+       </section>
+
+
+     <!--Toggle bottom offcanvas-->
+     <section>
+          <div class="container">
+
+         <p>Toggle bottom offcanvas</p>
+
+         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body small">
+                    Ripto Raihan
+                  </div>
+          </div>
+
+          </div>
+      </section>
+
+    <!--Toggle right offcanvas-->
+    <section>
+      <div class="container">
+    <p>Toggle right offcanvas</p>
+
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          Ripto Raihan
+        </div>
+    </div>
+
+    </div>
+    </section>
+
+      <!--Toggle top offcanvas-->
+      <section>
+        <div class="container">
+          <p>Toggle top offcanvas</p>
+
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
+
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+                <div class="offcanvas-body">
+                Ripto Raihan
+              </div>
+        </div>
+
+
+        </div>
+      </section>
+
+      <!--Offcanvas end-->
+
+    <!--Navbar start-->
+
+    <!--Supported content-->
+
+    <section>
+      <div class="container">
+
+        <h3>12-Navbar</h3>
+        <p>Nav</p>
+        
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  </div>
+    </section>
+
+        <!--Forms-->
+
+        <section>
+          <div class="container">
+            <p>Forms</p>
+
+         <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+           </nav>
+
+        </div>
+        </section>
+
+  <!--Navbar end-->
+   <!--Tooltips start-->
+
+
+    <!--Overview-->
+    <section>
+      <div class="container">
+        <h3>13-Tooltips</h3>
+        <p>Example: Enable tooltips everywhere</p>
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+              Tooltip on top
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+              Tooltip on right
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+              Tooltip on bottom
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+              Tooltip on left
+            </button>
+
+      </div>
+    </section>
+
+    <!--Disabled elements-->
+
+    <section>
+      <div class="container">
+        <p>Disabled elements</p>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Disabled tooltip">
+            <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+        </span>
+
+      </div>
+    </section>
+
+   <!--Tooltips end-->
+
+    <!-- Optional JavaScript -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
